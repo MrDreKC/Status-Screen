@@ -1,0 +1,61 @@
+:root {
+  background-color: black;
+}
+
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#status {
+  display: flex;
+  justify-content: center;
+}
+
+#status-screen {
+  border: 2px solid gold;
+  color: gold;
+  width: 525px;
+  height: 736px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 24px;
+}
+
+input{
+  border: 0;
+  border-bottom: 1px solid white;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  color: gold;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+hr {
+  margin: 0px 40px; 
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#status-bars {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#stats {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#stats input {
+  width: 80px;
+}
